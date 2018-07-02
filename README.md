@@ -1,5 +1,11 @@
 # Component: Exception
 
+### Releases
+
+- 1.0.0
+
+First release
+
 ### Requirements
 
 - [composer](https://getcomposer.org/doc/01-basic-usage.md)
