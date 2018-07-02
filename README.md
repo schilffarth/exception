@@ -14,7 +14,7 @@ First release
 
 ### Setup
 
-- The package can be installed using composer, run `composer require schilffarth/dependency-injection`
+- The package can be installed using composer, run `composer require schilffarth/exception`
 
 - Or add the requirement manually to your project's composer.json and run `composer update`
 
