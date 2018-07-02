@@ -33,7 +33,7 @@ class ErrorHandler
      * Handle your error, override the function if you desire special treatment
      * Default will echo the output and exit the program
      */
-    public function exit(\Exception $e)
+    public function exit(\Exception $e): void
     {
         echo PHP_EOL . PHP_EOL
             . $e->getCode() . ' - ' . $this->getErrorLabel($e) . PHP_EOL . PHP_EOL
@@ -46,7 +46,7 @@ class ErrorHandler
     /**
      * Error handler for unhandled errors
      */
-    public function handle(int $errNo, string $errStr)
+    public function handle(int $errNo, string $errStr): void
     {
         $this->exit(new \Exception($errStr, $errNo));
     }
