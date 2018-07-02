@@ -1,0 +1,17 @@
+{
+  "name": "schilffarth/exception",
+  "description": "Generic error handling for PHP",
+  "url": "https://github.com/schilffarth/exception",
+  "license": "GPL-3.0",
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "files": [
+      "set-error-handler.php"
+    ],
+    "psr-4": {
+      "Schilffarth\\Exception\\": ""
+    }
+  }
+}
